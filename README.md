@@ -119,6 +119,9 @@ Firmware dumping of WDC(?) 25QH64DH10 with a CH341A
 
 <img width="1260" height="945" alt="image" src="https://github.com/user-attachments/assets/d4cb696c-6cfa-497a-8615-1b270b7f7fc1" /><br/>
 
+<img width="866" height="659" alt="image" src="https://github.com/user-attachments/assets/cffe8759-9a8e-4fe5-9df6-032489ba6e43" /><br/>
+
+
 # Interesting file snippets
 
 rc.local
