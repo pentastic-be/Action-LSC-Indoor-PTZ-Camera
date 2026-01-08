@@ -117,6 +117,38 @@ Firmware dumping of WDC(?) 25QH64DH10
 
 <img width="1260" height="945" alt="image" src="https://github.com/user-attachments/assets/d4cb696c-6cfa-497a-8615-1b270b7f7fc1" /><br/>
 
+# Interesting file snippets
+
+rc.local
+```
+#start system service
+if test -f "/usr/sbin/main.sh" ;then
+	/usr/sbin/main.sh &
+else
+	/etc/init.d/system_recover.sh &
+fi
+```
+main.sh
+
+```
+cp /usr/sbin/service.sh /tmp/
+/tmp/service.sh start &
+
+AP_MODE_FILE=_ht_ap_mode.conf
+```
+service.sh
+
+```
+# 拷贝AP模式标识文件。
+dd if="/mnt/${AP_MODE_FILE}" of="/tmp/${AP_MODE_FILE}" bs=1024 count=1
+if test -f "/tmp/${AP_MODE_FILE}" ;then
+    echo "Load AP Mode File."
+    cp "/tmp/${AP_MODE_FILE}" /etc/config/hostapd.conf -rf
+    cp /mnt/hostapd /tmp/
+    # telnetd
+fi
+```
+
 # Shell
 
 ```
