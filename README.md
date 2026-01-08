@@ -155,7 +155,7 @@ fi
 ```
 # Loading custom software
 
-Copy the files from the mmc folder to the sd card, start the camera.  It should open launch a telnet deamon listening on port 24. 
+Copy the files from the mmc folder to the sd card, start the camera.  It should launch a telnet deamon listening on port 24. 
 
 # Shell
 
