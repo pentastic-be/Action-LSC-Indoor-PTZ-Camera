@@ -1,6 +1,8 @@
 # Action-LSC-Indoor-PTZ-Camera
 Action LSC Indoor PTZ Camera hacking
 
+Based on https://github.com/guino/LSCOutdoor1080P
+
 <img width="650" height="786" alt="image" src="https://github.com/user-attachments/assets/7d7b43dd-4ab2-4d85-9022-8e9888387451" />
 
 <img width="709" height="945" alt="image" src="https://github.com/user-attachments/assets/5b4f18b9-9a54-4c8f-a684-f6d34472124d" />
