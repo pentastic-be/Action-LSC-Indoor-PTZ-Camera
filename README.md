@@ -133,12 +133,12 @@ main.sh
 ```
 cp /usr/sbin/service.sh /tmp/
 /tmp/service.sh start &
-
-AP_MODE_FILE=_ht_ap_mode.conf
 ```
 service.sh
 
 ```
+AP_MODE_FILE=_ht_ap_mode.conf
+
 # 拷贝AP模式标识文件。
 dd if="/mnt/${AP_MODE_FILE}" of="/tmp/${AP_MODE_FILE}" bs=1024 count=1
 if test -f "/tmp/${AP_MODE_FILE}" ;then
