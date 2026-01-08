@@ -1,6 +1,9 @@
 # Action-LSC-Indoor-PTZ-Camera
 Action LSC Indoor PTZ Camera hacking
 
+<img width="650" height="786" alt="image" src="https://github.com/user-attachments/assets/7d7b43dd-4ab2-4d85-9022-8e9888387451" />
+
+
 Rx signal works, but no tx
 
 <img width="709" height="945" alt="image" src="https://github.com/user-attachments/assets/2b54bcbf-3a43-4eae-998d-bbef3066d4a9" />
