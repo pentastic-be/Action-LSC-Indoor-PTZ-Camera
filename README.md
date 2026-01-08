@@ -113,7 +113,7 @@ udhcpc: sending discover
 
 # Firmware
 
-Firmware dumping of WDC(?) 25QH64DH10 
+Firmware dumping of WDC(?) 25QH64DH10 with a CH341A
 
 <img width="446" height="328" alt="image" src="https://github.com/user-attachments/assets/e98d3642-10dc-4ad4-9e90-f250e14483f2" /><br/>
 
@@ -150,6 +150,9 @@ if test -f "/tmp/${AP_MODE_FILE}" ;then
     # telnetd
 fi
 ```
+# Loading custom software
+
+Copy the files from the mmc folder to the sd card, start the camera.  It should open launch a telnet deamon listening on port 24. 
 
 # Shell
 
